@@ -1,0 +1,4 @@
+resources:
+ - https://raw.githubusercontent.com/gravitational/teleport/master/examples/chart/teleport-cluster/templates/service.yaml
+patchesStrategicMerge:
+ - patch-service.yaml
